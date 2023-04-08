@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "642fdf06969e7b359796b815",
+    "index": 0,
+    "picture": "https://images.unsplash.com/photo-1596450514735-111a2fe02935?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1111&q=80",
+    "company": "QNEKT",
+    "about": "Mistaken Idea of Denouncing Pleasure and Praising Pain.",
+    "tag": "Wellcome to Roy One",
+    "title": "Restaurant & Wine Bar"
+  },
+  {
+    "_id": "642fdf06fd301b2ff49b134a",
+    "index": 1,
+    "picture": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "company": "STROZEN",
+    "about": "Mistaken Idea of Denouncing Pleasure and Praising Pain.",
+    "tag": "Wellcome to Roy Two",
+    "title": "Restaurant & Wine Bar"
+  },
+  {
+    "_id": "642fdf06d74405ca8a2c29ca",
+    "index": 2,
+    "picture": "https://images.unsplash.com/photo-1564759224907-65b945ff0e84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "company": "ETERNIS",
+    "about": "Mistaken Idea of Denouncing Pleasure and Praising Pain.",
+    "tag": "Wellcome to Roy Three",
+    "title": "Restaurant & Wine Bar"
+  }
+]
