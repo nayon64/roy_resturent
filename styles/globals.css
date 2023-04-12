@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.rdp{
+background-color: #627472;
+padding-bottom: 5px;
+width: 222px;
+}
+.rdp-table{
+  margin: 0 auto;
+}
+.rdp-caption{
+  background-color: rgb(253 186 116);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

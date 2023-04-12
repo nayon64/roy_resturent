@@ -25,6 +25,40 @@ const Banner = () => {
       .catch((err) => console.log(err));
   }, []);
 
+  const banners =()=>{
+   return bannerData.map((d) => (
+      <SwiperSlide key={d._id}>
+        {/* <BannerCard bannerData={d} /> */}
+        <div
+          style={{
+            height: "100vh",
+            backgroundSize: "cover",
+            objectFit: "cover",
+            width: "100%",
+            backgroundImage: `url(${d?.picture})`,
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <div
+            className="bg-gradient-to-r from-black/0 via-black/50 to-black/0 flex justify-center items-center"
+            style={{ height: "100vh" }}
+          >
+            <section className="text-center text-white">
+              <p className="font-mono">{d?.tag}</p>
+              <h1 className="text-5xl font-bold text-orange-300 my-3 ">
+                {d?.title}
+              </h1>
+              <h5 className="font-mono mt-6">{d?.about}</h5>
+              <button className="border border-orange-300 px-4 py-2 rounded-sm mt-4 font-mono">
+                <a href="#">Book A Table</a>
+              </button>
+            </section>
+          </div>
+        </div>
+      </SwiperSlide>
+    ));
+  }
+
   return (
     <>
       <Swiper
@@ -38,38 +72,7 @@ const Banner = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        {bannerData &&
-          bannerData.map((d) => (
-            <SwiperSlide>
-              {/* <BannerCard bannerData={d} /> */}
-              <div
-                style={{
-                  height: "100vh",
-                  backgroundSize: "cover",
-                  objectFit: "cover",
-                  width: "100%",
-                  backgroundImage: `url(${d?.picture})`,
-                  backgroundRepeat: "no-repeat",
-                }}
-              >
-                <div
-                  className="bg-gradient-to-r from-black/0 via-black/50 to-black/0 flex justify-center items-center"
-                  style={{ height: "100vh" }}
-                >
-                  <section className="text-center text-white">
-                    <p className="font-mono">{d?.tag}</p>
-                    <h1 className="text-5xl font-bold text-orange-300 my-3 ">
-                      {d?.title}
-                    </h1>
-                    <h5 className="font-mono mt-6">{d?.about}</h5>
-                    <button className="border border-orange-300 px-4 py-2 rounded-sm mt-4 font-mono">
-                      <a href="#">Book A Table</a>
-                    </button>
-                  </section>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
+        {banners()}
         {/* <SwiperSlide></SwiperSlide> */}
       </Swiper>
     </>

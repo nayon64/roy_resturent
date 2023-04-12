@@ -21,14 +21,16 @@ const HomeAbout = () => {
           src="https://images.unsplash.com/photo-1421622548261-c45bfe178854?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
           width={500}
           height={10}
+          alt=""
         />
       </div>
       <div className="absolute w-full flex justify-center -bottom-36">
-          <Image
-            src="https://images.unsplash.com/photo-1609688621897-a9be66031528?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            width={350}
-            height={10}
-          />
+        <Image
+          src="https://images.unsplash.com/photo-1609688621897-a9be66031528?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          width={350}
+          height={10}
+          alt=""
+        />
       </div>
     </section>
   );

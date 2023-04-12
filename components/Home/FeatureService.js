@@ -7,7 +7,7 @@ const FeatureService = () => {
       <div className="bg-gray-300 shadow-md max-w-5xl mx-auto my-4 grid grid-cols-3">
         <div className="flex items-center p-5">
           <div className="mr-4">
-            <Image src="/chef-hat.png" width={60} height={20} />
+            <Image src="/chef-hat.png" width={60} height={20} alt="" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Proffesional Chef</h4>
@@ -18,7 +18,7 @@ const FeatureService = () => {
         </div>
         <div className="flex items-center p-5">
           <div className="mr-4">
-            <Image src="/dish.png" width={60} height={10} />
+            <Image src="/dish.png" width={60} height={10} alt="" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Fresh Foods</h4>
@@ -29,7 +29,7 @@ const FeatureService = () => {
         </div>
         <div className="flex items-center p-5">
           <div className="mr-4">
-            <Image src="/van.png" width={80} height={20} />
+            <Image src="/van.png" width={80} height={20} alt="" />
           </div>
           <div>
             <h4 className="text-lg font-semibold">Home Delivery</h4>
