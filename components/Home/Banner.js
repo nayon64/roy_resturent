@@ -68,7 +68,7 @@ const Banner = () => {
         pagination={{
           clickable: true,
         }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000}}
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
