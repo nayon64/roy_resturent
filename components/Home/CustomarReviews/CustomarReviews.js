@@ -11,8 +11,8 @@ const CustomarReviews = () => {
         </p>
       </div>
       <div className=" grid grid-cols-3 ">
-        <div className="bg-yellow-500"></div>
-        <div className="col-span-2  bg-red-400 ">
+        <div className=""></div>
+        <div className="col-span-2  ">
           <CustomarReviewCard />
         </div>
       </div>
