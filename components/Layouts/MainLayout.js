@@ -1,6 +1,7 @@
 import BottomToTopBtn from "../Shareds/BottomToTop/BottomToTop";
 import Footer from "../Shareds/Footer/Footer";
 import Navbar from "../Shareds/Navbar/Navbar";
+import SocialMedia from "../Shareds/SocialMedia/SocialMedia";
 
 
 const MainLayout = ({children}) => {
@@ -9,7 +10,8 @@ const MainLayout = ({children}) => {
 			<Navbar />
 			<main>{ children}</main>
 			<Footer />
-			<BottomToTopBtn/>
+			<BottomToTopBtn />
+			<SocialMedia/>
 		</div>
 	);
 };
