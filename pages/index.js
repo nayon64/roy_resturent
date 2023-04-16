@@ -5,6 +5,7 @@ import HomeAbout from "@/components/Home/HomeAbout/HomeAbout";
 import OurChefs from "@/components/Home/OurChefs/OurChefs";
 import Reservations from "@/components/Home/Reservations/Reservations";
 import SetMenus from "@/components/Home/SetMenus/SetMenus";
+import SpeacialMenus from "@/components/Home/SpeacialMenus/SpeacialMenus";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <div>
         <Banner />
         <FeatureService />
+        <SpeacialMenus/>
         <HomeAbout />
         <SetMenus />
         <OurChefs />

@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "643a8832d8d680a73fb4c77f",
+    "index": 0,
+    "picture": "https://images.unsplash.com/photo-1568625365131-079e026a927d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    "company": "NAVIR",
+    "details": "Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.",
+    "tag": "",
+    "title": "Pring Veg & Pasta",
+    "price": "10"
+  },
+  {
+    "_id": "643a88323553a3a72c3336f3",
+    "index": 1,
+    "picture": "https://images.unsplash.com/photo-1604909052743-94e838986d24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    "company": "MANTRO",
+    "details": "Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.",
+    "tag": "",
+    "title": "Cheese /Bacon,Coleslaw",
+    "price": "12"
+  },
+  {
+    "_id": "643a883289e890cee8501358",
+    "index": 4,
+    "picture": "https://images.unsplash.com/photo-1615557960916-5f4791effe9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "company": "ZEDALIS",
+    "details": "Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.",
+    "tag": "",
+    "title": "Croissant (Plain)",
+    "price": "11"
+  }
+]

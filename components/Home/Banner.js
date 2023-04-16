@@ -29,7 +29,7 @@ const Banner = () => {
    return bannerData.map((d) => (
       <SwiperSlide key={d._id}>
         {/* <BannerCard bannerData={d} /> */}
-        <div
+        <div className="mt-6"
           style={{
             height: "100vh",
             backgroundSize: "cover",

@@ -40,3 +40,14 @@ width: 222px;
   justify-content: space-between;
   align-items: center;
 }
+.logo{
+  /* background-color: blue; */
+  display: inline-block;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 100%, 0% 85%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.humbuger div{
+  height: 2px;
+}
