@@ -13,7 +13,7 @@ const Reservations = () => {
   const [selected, setSelected] = useState();
 
 	const bookingSubmit = (data) => {
-		console.log(data);
+		// console.log(data);
   }
   let footer = <p className="w-52">Please pick a day.</p>;
   if (selected) {
@@ -21,12 +21,9 @@ const Reservations = () => {
     footer = <p className="w-52">You picked {date}.</p>;
     // setSelectDate(date) 
   }
-  console.log(selectDate);
 
 	const currentDate = new Date()
 	const date = currentDate.getMonth()+1 + "/" + currentDate.getDate() + "/" + currentDate.getFullYear();
-	console.log(currentDate);
-	console.log(date);
 	return (
     <section
       className=" text-center my-12 bg-center object-cover bg-fixed"

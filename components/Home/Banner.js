@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
-import BannerCard from "./BannerCard";
 const Banner = () => {
   const [bannerData, setBannerData] = useState([]);
 
@@ -19,7 +18,6 @@ const Banner = () => {
     fetch("banner.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setBannerData(data);
       })
       .catch((err) => console.log(err));

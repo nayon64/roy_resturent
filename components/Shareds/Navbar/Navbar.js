@@ -5,7 +5,6 @@ import HumburgerMenu from "./HumburgerMenu";
 const Navbar = () => {
   const [humburgerOpen, setHumburgerOpen] = useState(false);
 
-  console.log(humburgerOpen);
   const navMenus = [
     {
       name: "Home",
@@ -15,9 +14,30 @@ const Navbar = () => {
       name: "About",
       path: "/about",
     },
+    {
+      name: "Menu",
+      path: "/menu",
+    },
+    {
+      name: "Reservation",
+      path: "/about",
+    },
+    {
+      name: "Blog",
+      path: "/about",
+    },
+    {
+      name: "Contact us",
+      path: "/about",
+    }
   ];
   const menus = navMenus.map((m, i) => (
-    <Link onClick={() => setHumburgerOpen(false)} key={i} href={m.path}>
+    <Link
+      className="uppercase mx-3 text-sm font-mono tracking-wide"
+      onClick={() => setHumburgerOpen(false)}
+      key={i}
+      href={m.path}
+    >
       {m.name}
     </Link>
   ));
@@ -38,7 +58,7 @@ const Navbar = () => {
             Roy Resturent
           </Link>
         </div>
-        <div className="bg-white h-12 flex items-center">
+        <div className="bg-white h-12 flex items-center ">
           {menus}
           <div
             onClick={() => setHumburgerOpen(!humburgerOpen)}

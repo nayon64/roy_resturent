@@ -6,9 +6,9 @@ const SpeacialMenus = () => {
 
 	const [specialMenus, setSpecialMenus] = useState([])
 	useEffect(() => {
-		fetch("specialMenus.json").then(res => res.json()).then(data => {
-			console.log(data);
-			setSpecialMenus(data)
+    fetch("specialMenus.json").then(res => res.json()).then(data => {
+      const newData=data.slice(0,3)
+			setSpecialMenus(newData)
 		}).catch(err=>console.error(err))
 	},[])
 

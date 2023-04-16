@@ -23,7 +23,6 @@ const CustomarReviewCard = () => {
       console.error(err)
     })
   },[])
-console.log(people);
 
 	return (
     <>
