@@ -9,8 +9,8 @@ const Price = () => {
         <MenuCard title={"ATAY BOTTLE (300 ML)"} />
         <MenuCard title={"BIO JUS (500 ML)"} />
         <MenuCard title={"LITTLE DRINK (300 ML)"} />
-		  </div>
-		  <PrimaryButton />
+      </div>
+      <PrimaryButton value="Dowload menu" />
     </section>
   );
 };

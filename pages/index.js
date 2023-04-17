@@ -1,4 +1,5 @@
 import Banner from "@/components/Home/Banner";
+import Blogs from "@/components/Home/Blogs/Blogs";
 import CustomarReviews from "@/components/Home/CustomarReviews/CustomarReviews";
 import FeatureService from "@/components/Home/FeatureService";
 import HomeAbout from "@/components/Home/HomeAbout/HomeAbout";
@@ -15,7 +16,8 @@ export default function Home() {
       <div>
         <Banner />
         <FeatureService />
-        <SpeacialMenus/>
+        <SpeacialMenus />
+        <Blogs/>
         <HomeAbout />
         <SetMenus />
         <OurChefs />
