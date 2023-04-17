@@ -20,16 +20,16 @@ const Navbar = () => {
     },
     {
       name: "Reservation",
-      path: "/about",
+      path: "/reservation",
     },
     {
       name: "Blog",
-      path: "/about",
+      path: "/blogs",
     },
     {
       name: "Contact us",
-      path: "/about",
-    }
+      path: "/contact",
+    },
   ];
   const menus = navMenus.map((m, i) => (
     <Link

@@ -1,4 +1,5 @@
 import LunchMenu from "@/components/Menu/LunchMenu/LunchMenu";
+import Price from "@/components/Menu/Price/Price";
 import PageMainBanner from "@/components/Shareds/PageMainBanner/PageMainBanner";
 
 
@@ -7,11 +8,11 @@ const index = () => {
 
 	return (
     <div className="pt-6">
-      <PageMainBanner />
+      <PageMainBanner title={"menu"} />
       <LunchMenu  sectionTitle={"LUNCH MENU"} />
       <LunchMenu customStyle={"dark"} sectionTitle={"APPETIZER"} />
-      <LunchMenu  sectionTitle={"MAIN COURSE"} />
-      <h1>this is menu pages......</h1>
+      <LunchMenu sectionTitle={"MAIN COURSE"} />
+      <Price/>
     </div>
   );
 };

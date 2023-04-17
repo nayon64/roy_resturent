@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SpecialMenuCard from "./SpecialMenuCard";
 import Image from "next/image";
+import Link from "next/link";
 
 const SpeacialMenus = () => {
 
@@ -58,16 +59,21 @@ const SpeacialMenus = () => {
           height={100}
           alt=""
         />
-        <div className="h-32 w-32 flex justify-center items-center bg-white border-2 border-orange-500 rounded-full absolute left-1/2 top-1/2  -translate-x-1/2 -translate-y-1/2 cursor-pointer hover:bg-orange-500 hover:text-white group duration-500">
-          <h2 className="text-center">
-            <span className="text-orange-500 font-mono group-hover:text-white duration-500">
-              Explore
-            </span>{" "}
-            <br />
-            <span className="font-semibold">
-              THE <br /> MENU
-            </span>
-          </h2>
+        <div className="h-32 w-32  bg-white border-2 border-orange-500 rounded-full absolute left-1/2 top-1/2  -translate-x-1/2 -translate-y-1/2 hover:bg-orange-500 hover:text-white group duration-500 ">
+          <Link
+            href="/menu"
+            className="h-32 w-32 rounded-full flex justify-center items-center"
+          >
+            <h2 className="text-center">
+              <span className="text-orange-500 font-mono group-hover:text-white duration-500">
+                Explore
+              </span>{" "}
+              <br />
+              <span className="font-semibold">
+                THE <br /> MENU
+              </span>
+            </h2>
+          </Link>
         </div>
       </div>
     </section>

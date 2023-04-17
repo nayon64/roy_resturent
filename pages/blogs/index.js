@@ -1,12 +1,12 @@
 import PageMainBanner from "@/components/Shareds/PageMainBanner/PageMainBanner";
 
 
-const about = () => {
+const index = () => {
 	return (
     <div className="pt-6">
-      <PageMainBanner title={"About"} />
+      <PageMainBanner title={"blogs"} />
     </div>
   );
 };
 
-export default about;
+export default index;

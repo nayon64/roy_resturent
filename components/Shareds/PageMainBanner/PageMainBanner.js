@@ -1,6 +1,7 @@
+import Link from "next/link";
 
 
-const PageMainBanner = () => {
+const PageMainBanner = ({title}) => {
 	return (
     <section
       style={{
@@ -10,9 +11,13 @@ const PageMainBanner = () => {
     >
       <div className="h-full w-full bg-black/60 pt-6 flex justify-center flex-col items-center text-white">
         <h3 className="text-orange-500 font-mono text-xl">Roy Resturent</h3>
-        <h1 className="text-3xl font-bold my-2">MENU</h1>
+        <h1 className="text-3xl font-bold my-2 uppercase tracking-wide">
+          {title}
+        </h1>
         <h4>
-          HOME <span className="mx-2">&#62;</span> <span className="text-orange-500">MENU</span>
+          <Link href="/" className="hover:text-orange-500 duration-500">HOME </Link>
+          <span className="mx-2">&#62;</span>{" "}
+          <span className="text-orange-500 uppercase">{title}</span>
         </h4>
       </div>
     </section>
