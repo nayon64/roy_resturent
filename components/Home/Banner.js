@@ -35,6 +35,7 @@ const Banner = () => {
             width: "100%",
             backgroundImage: `url(${d?.picture})`,
             backgroundRepeat: "no-repeat",
+            backgroundAttachment:"fixed",
           }}
         >
           <div

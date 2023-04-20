@@ -58,7 +58,7 @@ const Navbar = () => {
             Roy Resturent
           </Link>
         </div>
-        <div className="bg-white h-12 flex items-center ">
+        <div className="bg-white h-12 flex items-center shadow-lg rounded-bl-lg ">
           {menus}
           <div
             onClick={() => setHumburgerOpen(!humburgerOpen)}
