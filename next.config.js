@@ -2,7 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["images.unsplash.com", "ncmaz-nextjs.vercel.app"],
+    domains: [
+      "images.unsplash.com",
+      "ncmaz-nextjs.vercel.app",
+      "media.istockphoto.com",
+    ],
   },
 };
 

@@ -66,4 +66,9 @@ width: 222px;
     border-bottom: 1px dashed #6b6b6b;
     z-index: 0;
     content: "";
- }       
+ }
+ .tableBooked{
+  background-color: rgba(0,0,0,.7);
+  color:white;
+ } 
+      
