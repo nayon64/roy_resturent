@@ -33,7 +33,7 @@ const Navbar = () => {
   ];
   const menus = navMenus.map((m, i) => (
     <Link
-      className="uppercase mx-3 text-sm font-mono tracking-wide"
+      className="uppercase mx-3 text-sm font-mono tracking-wide j"
       onClick={() => setHumburgerOpen(false)}
       key={i}
       href={m.path}
