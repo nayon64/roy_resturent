@@ -1,6 +1,7 @@
 import Banner from "@/components/Home/Banner";
 import Blogs from "@/components/Home/Blogs/Blogs";
 import CustomarReviews from "@/components/Home/CustomarReviews/CustomarReviews";
+import FAQ from "@/components/Home/FAQ/FAQ";
 import FeatureService from "@/components/Home/FeatureService";
 import FoodSection from "@/components/Home/FoodSection/FoodSection";
 import HomeAbout from "@/components/Home/HomeAbout/HomeAbout";
@@ -19,7 +20,8 @@ export default function Home() {
         <FeatureService />
         <SpeacialMenus />
         <FoodSection/>
-        <Blogs/>
+        <Blogs />
+        <FAQ/>
         <HomeAbout />
         <SetMenus />
         <OurChefs />
