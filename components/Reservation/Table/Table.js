@@ -27,11 +27,7 @@ const Table = ({ setBookingModalOpen }) => {
     >
       <img className="p-2" src={t} alt="" />
       <span
-        className={`absolute top-1/2 -translate-y-1/2 w-full h-full flex hover:bg-orange-500/40 justify-center items-center cursor-pointer  duration-500 hover:text-white  ${
-          i == 5 ? "tableBooked hover:bg-black/70" : ""
-        } ${i == 13 ? "tableBooked hover:bg-black/70" : ""} ${
-          i == 14 ? "tableBooked hover:bg-black/70" : ""
-        }`}
+        className={`absolute top-1/2 -translate-y-1/2 w-full h-full flex  justify-center items-center cursor-pointer  duration-500 hover:text-white  `}
       >
         {i + 1}
       </span>

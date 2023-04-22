@@ -20,7 +20,7 @@ const Blogs = () => {
 
 	return (
     <section className="max-w-5xl mx-auto grid grid-cols-2 gap-4 my-12">
-      <div className="grid grid-cols-2 py-4 bg-white rounded-md shadow-md">
+      <div className="grid grid-cols-2 py-4  rounded-md shadow-2xl">
         <div className="mx-4 flex ">
           <Image
             className="w-full h-full object-cover rounded-lg"
