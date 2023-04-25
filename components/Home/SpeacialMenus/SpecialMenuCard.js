@@ -4,7 +4,7 @@ import React from "react";
 const SpecialMenuCard = ({ menu, customStyle }) => {
   const { title, picture, details, price } = menu;
   return (
-    <div className="flex items-center my-3">
+    <div className="flex items-center my-3 select-none">
       <div className="bg-gray-200 inline-block  ">
         <Image
           className="p-2 object-cover w-20 h-20"
@@ -27,7 +27,9 @@ const SpecialMenuCard = ({ menu, customStyle }) => {
         </p>
       </div>
       <div className="h-16 w-16 border border-gray-300 rounded-full flex justify-center items-center">
-        <h3 className={`text-xl font-semibold ${customStyle?"text-white":""}`}>
+        <h3
+          className={`text-xl font-semibold ${customStyle ? "text-white" : ""}`}
+        >
           $<span>{price ? price : "00"}</span>
         </h3>
       </div>

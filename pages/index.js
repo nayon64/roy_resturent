@@ -4,7 +4,6 @@ import CustomarReviews from "@/components/Home/CustomarReviews/CustomarReviews";
 import FAQ from "@/components/Home/FAQ/FAQ";
 import FeatureService from "@/components/Home/FeatureService";
 import FoodSection from "@/components/Home/FoodSection/FoodSection";
-import HomeAbout from "@/components/Home/HomeAbout/HomeAbout";
 import OurChefs from "@/components/Home/OurChefs/OurChefs";
 import Reservations from "@/components/Home/Reservations/Reservations";
 import SetMenus from "@/components/Home/SetMenus/SetMenus";
@@ -13,23 +12,19 @@ import SpeacialMenus from "@/components/Home/SpeacialMenus/SpeacialMenus";
 
 export default function Home() {
   return (
-    <main >
-      
+    <main>
       <div>
         <Banner />
         <FeatureService />
         <SpeacialMenus />
-        <FoodSection/>
-        <Blogs />
-        <FAQ/>
-        <HomeAbout />
+        <FoodSection />
         <SetMenus />
         <OurChefs />
+        <FAQ />
+        <Blogs />
         <Reservations />
-        <CustomarReviews/>
-</div>
-     
-
+        <CustomarReviews />
+      </div>
     </main>
-  )
+  );
 }

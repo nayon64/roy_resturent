@@ -58,7 +58,7 @@ const FAQ = () => {
 	}
 	
   return (
-    <section className="max-w-5xl mx-auto grid grid-cols-5 gap-8">
+    <section className="max-w-5xl mx-auto grid grid-cols-5 gap-8 mt-16">
       {/* left side section  */}
       <div
         className="col-span-2  object-cover bg-cover bg-center rounded-lg overflow-hidden"

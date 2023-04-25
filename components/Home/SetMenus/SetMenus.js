@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SetMenus = () => {
   return (
-    <section className="mt-48 max-w-5xl mx-auto">
+    <section className=" max-w-5xl mx-auto">
       <div className="mb-4 flex justify-between items-end">
         <div className=" ">
           <h2 className="text-xl font-mono  text-orange-500">Roy Resturent</h2>

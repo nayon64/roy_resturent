@@ -23,7 +23,7 @@ const OurChefs = () => {
   }, []);
 
   return (
-    <section className="max-w-5xl mx-auto py-4">
+    <section className="max-w-5xl mx-auto py-4 my-20">
       <div className="my-4">
         <h2 className="text-xl font-mono  text-orange-500">Best Of Best</h2>
         <h1 className={`text-2xl font-bold mb-3 uppercase tracking-wide`}>

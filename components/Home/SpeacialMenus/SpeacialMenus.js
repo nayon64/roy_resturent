@@ -16,7 +16,7 @@ const SpeacialMenus = () => {
 
 
   return (
-    <section className="grid grid-cols-2 max-w-5xl mx-auto">
+    <section className="grid grid-cols-2 max-w-5xl mx-auto mt-12">
       <div className="my-auto">
         <p className="text-xl text-orange-500 font-mono">From The Menu</p>
         <h2 className="text-3xl font-bold tracking-wide">SPECIAL OFFERS</h2>
