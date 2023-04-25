@@ -80,8 +80,8 @@ const FAQ = () => {
         </div>
       </div>
       <div className="col-span-3">
-        {faqs.map((f) => (
-          <div className="rounded overflow-hidden shadow cursor-pointer mb-2">
+        {faqs.map((f,i) => (
+          <div key={i} className="rounded overflow-hidden shadow cursor-pointer mb-2">
             <div
               onClick={() => handleAccording(f._id)}
               className={`duration-500 bg-gradient-to-r  ${

@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "6447930949df0755d4473fa7",
+    "picture": "https://images.unsplash.com/photo-1578367015636-5ceda70b8069?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "name": "Freyja Jechson",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  },
+  {
+    "_id": "64479309dce1d07db4c81ed8",
+    "picture": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1087&q=80",
+    "name": "Eliat Hinch",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  },
+  {
+    "_id": "64479309136f2fa0e417124b",
+    "picture": "https://images.unsplash.com/photo-1556909114-44e3e70034e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Zayla Islam",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  },
+  {
+    "_id": "644793099ec0280425fcc29d",
+    "picture": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Della Hinch",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  },
+  {
+    "_id": "64479309954b00b76edf85e5",
+    "picture": "https://plus.unsplash.com/premium_photo-1673830185623-6ee0d12489a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=399&q=80",
+    "name": "Arleth Mendela",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  },
+  {
+    "_id": "64479309b231fc680ea7dcee",
+    "picture": "https://images.unsplash.com/photo-1541557688294-2958d9d48242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Philippa Asu",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  },
+  {
+    "_id": "64479309167dd995411f6952",
+    "picture": "https://images.unsplash.com/photo-1636114980244-2e10fe36f213?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "name": "Liam marty",
+    "degignation": "Manager",
+    "facebookLink": "https://www.facebook.com/",
+    "instagramLink": "https://www.instagram.com/",
+    "twitterLink": "https://twitter.com/"
+  }
+]

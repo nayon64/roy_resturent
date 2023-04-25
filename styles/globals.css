@@ -83,4 +83,19 @@ width: 222px;
  footer li:hover{
   transform: translateX(6px);
  }
-      
+ .contact-icon-black{
+display: none;
+ }
+ .contact-icon-orange,.contact-icon-black{
+  
+  margin: 3px;
+ }
+   
+ .chef-contact-icons:hover .contact-icon-orange{
+
+  display: none;
+  
+ }
+ .chef-contact-icons:hover .contact-icon-black{
+  display: block;
+ }
