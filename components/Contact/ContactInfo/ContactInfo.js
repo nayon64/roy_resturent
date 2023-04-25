@@ -6,16 +6,16 @@ const ContactInfo = () => {
 
 	
 	return (
-    <div className="col-span-4">
+    <div className="col-span-4  rounded shadow-2xl p-6">
       <h1 className="text-2xl  font-semibold uppercase">Contact Info</h1>
       <hr className="border border-orange-500 my-2" />
       <div>
         <h3 className="font-mono text-lg">Contact Number:</h3>
         <div className="flex items-center gap-2 mt-2">
-          <div className="bg-slate-600 p-3 rounded-full text-xl text-white">
+          <div className="bg-slate-600 p-2 rounded-full text-xl text-white">
             <FiPhone />
           </div>
-          <div className="text-gray-600 text-sm">
+          <div className="text-gray-600 text-xs">
             <p>+658-4654-5456</p>
             <p>+65-46544-5456</p>
           </div>
@@ -25,10 +25,10 @@ const ContactInfo = () => {
       <div className="mt-6">
         <h3 className="font-mono text-lg">Mail Address:</h3>
         <div className="flex items-center gap-2 mt-2">
-          <div className="bg-slate-600 p-3 rounded-full text-xl text-white">
+          <div className="bg-slate-600 p-2 rounded-full text-xl text-white">
             <AiOutlineMail />
           </div>
-          <div className="text-gray-600 text-sm">
+          <div className="text-gray-600 text-xs">
             <p>info@royresturen.com</p>
             <p>inforoyresturen@gmail.com</p>
           </div>
@@ -37,10 +37,10 @@ const ContactInfo = () => {
       <div className="mt-6">
         <h3 className="font-mono text-lg">Office Address:</h3>
         <div className="flex items-center gap-2 mt-2">
-          <div className="bg-slate-600 p-3 rounded-full text-xl text-white">
+          <div className="bg-slate-600 p-2 rounded-full text-xl text-white">
             <GoLocation />
           </div>
-          <div className="text-gray-600 text-sm">
+          <div className="text-gray-600 text-xs">
             <p>Burnsville, MN 55337 Streat,</p>
             <p>United State</p>
           </div>
