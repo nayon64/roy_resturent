@@ -130,3 +130,14 @@ display: none;
  .chef-contact-icons:hover .contact-icon-black{
   display: block;
  }
+
+.setMenuCard{
+  transition: all ease-in-out .3s;
+}
+ .setMenuCard:hover{
+  transform: rotateY(180deg);
+  
+ }
+ .setMenuCard:hover img{
+  backface-visibility: hidden;
+ }
