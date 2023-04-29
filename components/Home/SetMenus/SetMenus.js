@@ -23,7 +23,23 @@ const SetMenus = () => {
         </div>
       </div>
       <div className="grid grid-cols-3">
-        <div className="overflow-hidden setMenuCard">
+        <div className="card">
+          <div className="card-inner relative">
+            <div className="card-front">
+              <Image
+                className=" w-full"
+                src="https://images.unsplash.com/photo-1551326844-4df70f78d0e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80"
+                width={350}
+                height={10}
+                alt=""
+              />
+            </div>
+            <div className="card-back h-full w-full bg-red-400 absolute top-0 right-0 rotate-180">
+              <h1>This is nice card</h1>
+            </div>
+          </div>
+        </div>
+        <div className="overflow-hidden">
           <Image
             className="hover:scale-125  duration-700 w-full"
             src="https://images.unsplash.com/photo-1551326844-4df70f78d0e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80"
